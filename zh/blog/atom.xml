@@ -36,8 +36,8 @@
         <id>/2018/09/23/new-website</id>
         <link href="https://casbin.io/zh/blog/2018/09/23/new-website"/>
         <updated>2018-09-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天，我们已将Cassbin的文档从 GitHub Wiki 迁移到此网站的 Docs 文档， 由 Docusaurus 提供支持。 Docusaurus提供了许多优秀的功能，例如更好的 Markdown风格，全文搜索，版本设置，翻译。]]></summary>
-        <content type="html"><![CDATA[<p>今天，我们已将Cassbin的文档从 GitHub Wiki 迁移到此网站的 <code>Docs</code> 文档， 由 Docusaurus 提供支持。 Docusaurus提供了许多优秀的功能，例如更好的 Markdown风格，全文搜索，版本设置，翻译。</p><p>文件尚不完善，仍然需要调整。 源代码托管在 GitHub 上： <a href="https://github.com/casbin/casbin-website" target="_blank" rel="noopener noreferrer">https://github.com/casbin/casbin-website</a>.</p><p>欢迎任何贡献或建议！</p>]]></content>
+        <summary type="html"><![CDATA[今天，我们已将Casbin的文档从 GitHub Wiki 迁移到此网站的 Docs 文档， 由 Docusaurus 提供支持。 Docusaurus提供了许多优秀的功能，例如更好的 Markdown风格，全文搜索，版本设置，翻译。]]></summary>
+        <content type="html"><![CDATA[<p>今天，我们已将Casbin的文档从 GitHub Wiki 迁移到此网站的 <code>Docs</code> 文档， 由 Docusaurus 提供支持。 Docusaurus提供了许多优秀的功能，例如更好的 Markdown风格，全文搜索，版本设置，翻译。</p><p>文件尚不完善，仍然需要调整。 源代码托管在 GitHub 上： <a href="https://github.com/casbin/casbin-website" target="_blank" rel="noopener noreferrer">https://github.com/casbin/casbin-website</a>.</p><p>欢迎任何贡献或建议！</p>]]></content>
         <author>
             <name>Yang Luo</name>
             <uri>http://github.com/hsluoyz</uri>
@@ -60,8 +60,8 @@
         <id>/2018/08/07/launching-casbin-server</id>
         <link href="https://casbin.io/zh/blog/2018/08/07/launching-casbin-server"/>
         <updated>2018-08-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[我们的一些客户询问Casbin是否可以用作服务而不是图书馆。 答案是 当然可以。 今天，我们启动了 Cassbin Server 项目，作为 访问控制作为服务 的具体解决方案。]]></summary>
-        <content type="html"><![CDATA[<p>我们的一些客户询问Casbin是否可以用作服务而不是图书馆。 答案是 <strong>当然可以</strong>。 今天，我们启动了 <a href="https://github.com/casbin/casbin-server" target="_blank" rel="noopener noreferrer">Cassbin Server</a> 项目，作为 <strong>访问控制作为服务</strong> 的具体解决方案。</p><p><strong>Cassbin Server</strong> 正在由我们的核心团队积极开发。 它有以下几个特点：</p><ul><li>纯粹是由Golang开发的。</li><li>可以管理数以千计的 Casbin 实例，这样您就可以将策略执行逻辑从多个服务移动到一个Casbin 服务器。</li><li><strong>gRPC</strong> 被用于与 Casbin 服务器通信。 我们还考虑在不久的将来添加 <strong>RESTTful</strong> 支持。</li><li>为非开发者管理员提供了一个友好的网站管理员门户，用于管理所有细节，如Casbin实例、模型、政策存储和负载平衡。</li></ul><p>源代码托管在 GitHub 上： <a href="https://github.com/casbin/casbin-server" target="_blank" rel="noopener noreferrer">https://github.com/casbin/casbin-server</a></p><p>欢迎任何问题或合并请求 :)</p>]]></content>
+        <summary type="html"><![CDATA[我们的一些客户询问Casbin是否可以用作服务而不是图书馆。 答案是 当然可以。 今天，我们启动了 Casbin Server 项目，作为 访问控制作为服务 的具体解决方案。]]></summary>
+        <content type="html"><![CDATA[<p>我们的一些客户询问Casbin是否可以用作服务而不是图书馆。 答案是 <strong>当然可以</strong>。 今天，我们启动了 <a href="https://github.com/casbin/casbin-server" target="_blank" rel="noopener noreferrer">Casbin Server</a> 项目，作为 <strong>访问控制作为服务</strong> 的具体解决方案。</p><p><strong>Casbin Server</strong> 正在由我们的核心团队积极开发。 它有以下几个特点：</p><ul><li>纯粹是由Golang开发的。</li><li>可以管理数以千计的 Casbin 实例，这样您就可以将策略执行逻辑从多个服务移动到一个Casbin 服务器。</li><li><strong>gRPC</strong> 被用于与 Casbin 服务器通信。 我们还考虑在不久的将来添加 <strong>RESTTful</strong> 支持。</li><li>为非开发者管理员提供了一个友好的网站管理员门户，用于管理所有细节，如Casbin实例、模型、政策存储和负载平衡。</li></ul><p>源代码托管在 GitHub 上： <a href="https://github.com/casbin/casbin-server" target="_blank" rel="noopener noreferrer">https://github.com/casbin/casbin-server</a></p><p>欢迎任何问题或合并请求 :)</p>]]></content>
         <author>
             <name>Helong Zhang</name>
             <uri>http://github.com/BetaCat0</uri>
