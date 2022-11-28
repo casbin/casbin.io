@@ -4,8 +4,8 @@
   <ShortName>Casbin</ShortName>
   <Description>Search Casbin</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://casbin.io/ru/img/favicon.png</Image>
-  <Url type="text/html" method="get" template="https://casbin.io/ru/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://casbin.io/ru/opensearch.xml" />
-  <moz:SearchForm>https://casbin.io/ru/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://casbin.org/ru/img/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://casbin.org/ru/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://casbin.org/ru/opensearch.xml" />
+  <moz:SearchForm>https://casbin.org/ru/</moz:SearchForm>
 </OpenSearchDescription>
