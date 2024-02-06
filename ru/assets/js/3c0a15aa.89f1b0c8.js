@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[7811],{9737:e=>{e.exports=JSON.parse('{"title":"\u0415\u0449\u0451","slug":"/category/more","permalink":"/ru/docs/category/more","navigation":{"previous":{"title":"IDE Plugins","permalink":"/ru/docs/ide-plugins"},"next":{"title":"Our Adopters","permalink":"/ru/docs/adopters"}}}')}}]);

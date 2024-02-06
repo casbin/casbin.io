@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[1449],{9604:e=>{e.exports=JSON.parse('{"title":"\uc790\uc138\ud788","slug":"/category/more","permalink":"/ko/docs/category/more","navigation":{"previous":{"title":"IDE Plugins","permalink":"/ko/docs/ide-plugins"},"next":{"title":"Our Adopters","permalink":"/ko/docs/adopters"}}}')}}]);
