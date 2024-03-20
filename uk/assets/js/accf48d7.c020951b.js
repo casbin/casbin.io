@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[7993],{7479:e=>{e.exports=JSON.parse('{"title":"Editor","slug":"/category/editor","permalink":"/uk/docs/category/editor","navigation":{"previous":{"title":"Frontend Usage","permalink":"/uk/docs/frontend"},"next":{"title":"Online Editor","permalink":"/uk/docs/online-editor"}}}')}}]);

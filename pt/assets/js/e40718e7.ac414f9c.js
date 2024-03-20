@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[9480],{7224:e=>{e.exports=JSON.parse('{"title":"API","slug":"/category/api","permalink":"/pt/docs/category/api","navigation":{"previous":{"title":"Cloud Native Middlewares","permalink":"/pt/docs/cloud-native"},"next":{"title":"API Overview","permalink":"/pt/docs/api-overview"}}}')}}]);
