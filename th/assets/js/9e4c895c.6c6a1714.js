@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[4698],{5030:e=>{e.exports=JSON.parse('{"title":"Storage","slug":"/category/storage","permalink":"/th/docs/category/storage","navigation":{"previous":{"title":"Super Admin","permalink":"/th/docs/superadmin"},"next":{"title":"Model Storage","permalink":"/th/docs/model-storage"}}}')}}]);

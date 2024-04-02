@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[6490],{963:e=>{e.exports=JSON.parse('{"title":"Los b\xe1sicos","slug":"/category/the-basics","permalink":"/es/docs/category/the-basics","navigation":{"next":{"title":"Overview","permalink":"/es/docs/overview"}}}')}}]);
