@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[4962],{9934:e=>{e.exports=JSON.parse('{"title":"Daha Fazla","slug":"/category/more","permalink":"/tr/docs/category/more","navigation":{"previous":{"title":"IDE Plugins","permalink":"/tr/docs/ide-plugins"},"next":{"title":"Our Adopters","permalink":"/tr/docs/adopters"}}}')}}]);

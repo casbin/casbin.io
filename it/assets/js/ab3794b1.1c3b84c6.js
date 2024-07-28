@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[7703],{6235:e=>{e.exports=JSON.parse('{"title":"Le basi","slug":"/category/the-basics","permalink":"/it/docs/category/the-basics","navigation":{"next":{"title":"Overview","permalink":"/it/docs/overview"}}}')}}]);

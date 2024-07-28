@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[1676],{2943:e=>{e.exports=JSON.parse('{"title":"Temeller","slug":"/category/the-basics","permalink":"/tr/docs/category/the-basics","navigation":{"next":{"title":"Overview","permalink":"/tr/docs/overview"}}}')}}]);

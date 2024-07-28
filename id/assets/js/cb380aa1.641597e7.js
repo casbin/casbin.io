@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[5095],{1992:e=>{e.exports=JSON.parse('{"title":"Dasar-dasar","slug":"/category/the-basics","permalink":"/id/docs/category/the-basics","navigation":{"next":{"title":"Overview","permalink":"/id/docs/overview"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[3384],{394:e=>{e.exports=JSON.parse('{"title":"Lainnya","slug":"/category/more","permalink":"/id/docs/category/more","navigation":{"previous":{"title":"IDE Plugins","permalink":"/id/docs/ide-plugins"},"next":{"title":"Our Adopters","permalink":"/id/docs/adopters"}}}')}}]);
