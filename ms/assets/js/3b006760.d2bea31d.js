@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[1757],{4800:e=>{e.exports=JSON.parse('{"title":"Model","slug":"/category/model","permalink":"/ms/docs/category/model","navigation":{"previous":{"title":"Tutorials","permalink":"/ms/docs/tutorials"},"next":{"title":"Supported Models","permalink":"/ms/docs/supported-models"}}}')}}]);
