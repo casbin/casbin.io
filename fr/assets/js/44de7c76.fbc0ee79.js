@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[547],{2839:a=>{a.exports=JSON.parse('{"label":"roadmap","permalink":"/fr/blog/tags/roadmap","allTagsPath":"/fr/blog/tags","count":1}')}}]);

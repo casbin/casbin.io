@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[8520],{7364:s=>{s.exports=JSON.parse('{"label":"AI","permalink":"/ms/blog/tags/ai","allTagsPath":"/ms/blog/tags","count":1}')}}]);

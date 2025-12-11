@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[4527],{9504:e=>{e.exports=JSON.parse('{"label":"edge-computing","permalink":"/tr/blog/tags/edge-computing","allTagsPath":"/tr/blog/tags","count":1}')}}]);
