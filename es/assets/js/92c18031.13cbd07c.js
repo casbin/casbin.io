@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[8730],{8052:s=>{s.exports=JSON.parse('{"label":"MCP","permalink":"/es/blog/tags/mcp","allTagsPath":"/es/blog/tags","count":1}')}}]);

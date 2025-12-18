@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcasbin_website_v2=globalThis.webpackChunkcasbin_website_v2||[]).push([[5060],{3246:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Die Grundlagen","slug":"/category/the-basics","permalink":"/de/docs/category/the-basics","sidebar":"docs","navigation":{"next":{"title":"Overview","permalink":"/de/docs/overview"}}}}')}}]);

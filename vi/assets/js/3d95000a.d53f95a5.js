@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcasbin_website_v2=self.webpackChunkcasbin_website_v2||[]).push([[6401],{5985:e=>{e.exports=JSON.parse('{"title":"Th\xeam","slug":"/category/more","permalink":"/vi/docs/category/more","navigation":{"previous":{"title":"IDE Plugins","permalink":"/vi/docs/ide-plugins"},"next":{"title":"Our Adopters","permalink":"/vi/docs/adopters"}}}')}}]);
