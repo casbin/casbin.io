@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcasbin_website_v2=globalThis.webpackChunkcasbin_website_v2||[]).push([[7853],{6998(e){e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Temeller","slug":"/category/the-basics","permalink":"/tr/docs/category/the-basics","sidebar":"docs","navigation":{"next":{"title":"Overview","permalink":"/tr/docs/overview"}}}}')}}]);
