@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkcasbin_website_v2=globalThis.webpackChunkcasbin_website_v2||[]).push([[9406],{6854(e){e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Asas-asas","slug":"/category/the-basics","permalink":"/ms/docs/category/the-basics","sidebar":"docs","navigation":{"next":{"title":"Overview","permalink":"/ms/docs/overview"}}}}')}}]);
