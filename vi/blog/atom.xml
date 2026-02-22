@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://casbin.org/vi/blog</id>
-    <title>Casbin Blog</title>
+    <title>Apache Casbin Blog</title>
     <updated>2025-12-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://casbin.org/vi/blog"/>
-    <subtitle>Casbin Blog</subtitle>
+    <subtitle>Apache Casbin Blog</subtitle>
     <icon>https://casbin.org/vi/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Casbin in 2025: Authorization for the AI Agent Era]]></title>
