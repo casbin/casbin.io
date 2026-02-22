@@ -51,7 +51,7 @@
 <p>The next few years are going to be wild for authorization. The problems are harder, but also more interesting. We're excited to figure them out together.</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
         <category label="casbin" term="casbin"/>
         <category label="roadmap" term="roadmap"/>
@@ -112,7 +112,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">true</span><br></span></code></pre></div></div>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="visual-representation-of-the-acl-model-policy-and-request-matching">Visual representation of the ACL model, policy, and request matching<a href="https://casbin.org/ja/blog/2023/12/08/understanding-casbin-matching-in-detail#visual-representation-of-the-acl-model-policy-and-request-matching" class="hash-link" aria-label="Visual representation of the ACL model, policy, and request matching への直接リンク" title="Visual representation of the ACL model, policy, and request matching への直接リンク" translate="no">​</a></h3>
 <p><img decoding="async" loading="lazy" alt="acl" src="https://casbin.org/ja/assets/images/acl-704097c47b27a1f2235c82f593af469e.png" width="6968" height="3096" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="what-is-rbac">What is RBAC?<a href="https://casbin.org/ja/blog/2023/12/08/understanding-casbin-matching-in-detail#what-is-rbac" class="hash-link" aria-label="What is RBAC? への直接リ�ンク" title="What is RBAC? への直接リンク" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="what-is-rbac">What is RBAC?<a href="https://casbin.org/ja/blog/2023/12/08/understanding-casbin-matching-in-detail#what-is-rbac" class="hash-link" aria-label="What is RBAC? への直接��リンク" title="What is RBAC? への直接リンク" translate="no">​</a></h2>
 <p>RBAC stands for Role-Based Access Control. In RBAC, a user is assigned a role for a resource, and a role can contain arbitrary actions. The request then checks if the user has the permission to perform the action on the resource.</p>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="the-model-definition-1">The model definition<a href="https://casbin.org/ja/blog/2023/12/08/understanding-casbin-matching-in-detail#the-model-definition-1" class="hash-link" aria-label="The model definition への直接リンク" title="The model definition への直接リンク" translate="no">​</a></h3>
 <p>Let's consider a simple example RBAC model:</p>
@@ -167,7 +167,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>In this tutorial, we learned about how different authorization models work and how they can be modeled using Casbin. In the second part of this tutorial, we will implement this in a demo Spring Boot Application and secure the APIs using Casbin.</p>]]></content>
         <author>
             <name>Aravinda Kumar</name>
-            <uri>http://github.com/aravindarc</uri>
+            <uri>https://github.com/aravindarc</uri>
         </author>
     </entry>
     <entry>
@@ -196,7 +196,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <li class=""><code>keyMatch(r.obj, p.obj)</code>: リクエストのオブジェクトはポリシーのオブジェクト (URLパスはこちら) に一致します。</li>
 <li class=""><code>keyMatch(r.act, p.act)</code>: リクエストのアクションはポリシーのアクション (HTTP リクエストメソッドはこちら) と一致します。</li>
 </ol>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="ルー��ト上でプラグインを有効にしています">ルート上でプラグインを有効にしています<a href="https://casbin.org/ja/blog/2021/08/19/apisix-casbin-authorization#%E3%83%AB%E3%83%BC%E3%83%88%E4%B8%8A%E3%81%A7%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99" class="hash-link" aria-label="ルート上でプラグインを有効にしています への直接リンク" title="ルート上でプラグインを有効にしています への直接リンク" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="ルート上でプラ��グインを有効にしています">ルート上でプラグインを有効にしています<a href="https://casbin.org/ja/blog/2021/08/19/apisix-casbin-authorization#%E3%83%AB%E3%83%BC%E3%83%88%E4%B8%8A%E3%81%A7%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99" class="hash-link" aria-label="ルート上でプラグインを有効にしています への直接リンク" title="ルート上でプラグインを有効にしています への直接リンク" translate="no">​</a></h2>
 <p>モデルとポリシーを作成したら、APISIX Admin API を使用してルート上で有効にできます。 モデルとポリシーのファイルパスを使用して有効にするには:</p>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl http://127.0.0.1:9080/apisix/admin/routes/1 -H 'X-API-KEY: edd1c9f034335f136f87ad84b625c8f1' -X PUT -d '</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    "plugins": {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        "authz-casbin": {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            "model_path": "/path/to/model.conf",</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            "policy_path": "/path/to/policy.csv",</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            "username": "username"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    "upstream": {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        "nodes": {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            "127.0.0.1:1980": 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        "type": "roundrobin"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    "uri": "/*"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}'</span><br></span></code></pre></div></div>
 <p>ここで、username フィールドは、subject に渡すために使用するヘッダー名です。 例えば、ユーザー名ヘッダーを <code>user: alice</code>として渡す場合は、 <code>"username": "user"</code> を使用します。</p>
@@ -216,7 +216,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 </ul>]]></content>
         <author>
             <name>Rushikesh Tote</name>
-            <uri>http://github.com/rushitote</uri>
+            <uri>https://github.com/rushitote</uri>
         </author>
     </entry>
     <entry>
@@ -243,7 +243,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p><em>ご利用ありがとうございます！</em></p>]]></content>
         <author>
             <name>Casbin</name>
-            <uri>http://github.com/casbin</uri>
+            <uri>https://github.com/casbin</uri>
         </author>
     </entry>
     <entry>
@@ -257,7 +257,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>どんな貢献も提案も歓迎です!</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
     </entry>
     <entry>
@@ -272,7 +272,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>GitHub: <a href="https://github.com/casbin/node-casbin" target="_blank" rel="noopener noreferrer" class="">https://github.com/casbin/node-casbin</a></p>]]></content>
         <author>
             <name>Zixuan Liu</name>
-            <uri>http://github.com/nodece</uri>
+            <uri>https://github.com/nodece</uri>
         </author>
     </entry>
     <entry>
@@ -293,7 +293,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>問題やプルリクエストは歓迎します:)</p>]]></content>
         <author>
             <name>Helong Zhang</name>
-            <uri>http://github.com/BetaCat0</uri>
+            <uri>https://github.com/BetaCat0</uri>
         </author>
     </entry>
 </feed>

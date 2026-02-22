@@ -51,7 +51,7 @@
 <p>The next few years are going to be wild for authorization. The problems are harder, but also more interesting. We're excited to figure them out together.</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
         <category label="casbin" term="casbin"/>
         <category label="roadmap" term="roadmap"/>
@@ -112,7 +112,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">true</span><br></span></code></pre></div></div>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="visual-representation-of-the-acl-model-policy-and-request-matching">Visual representation of the ACL model, policy, and request matching<a href="https://casbin.org/ko/blog/2023/12/08/understanding-casbin-matching-in-detail#visual-representation-of-the-acl-model-policy-and-request-matching" class="hash-link" aria-label="Visual representation of the ACL model, policy, and request matching에 대한 직접 링크" title="Visual representation of the ACL model, policy, and request matching에 대한 직접 링크" translate="no">​</a></h3>
 <p><img decoding="async" loading="lazy" alt="acl" src="https://casbin.org/ko/assets/images/acl-704097c47b27a1f2235c82f593af469e.png" width="6968" height="3096" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="what-is-rbac">What is RBAC?<a href="https://casbin.org/ko/blog/2023/12/08/understanding-casbin-matching-in-detail#what-is-rbac" class="hash-link" aria-label="What is RBAC?에 대한 직접 ��링크" title="What is RBAC?에 대한 직접 링크" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="what-is-rbac">What is RBAC?<a href="https://casbin.org/ko/blog/2023/12/08/understanding-casbin-matching-in-detail#what-is-rbac" class="hash-link" aria-label="What is RBAC?에 대한 직접 링크" title="What is RBAC?에 대한 직접 링크" translate="no">​</a></h2>
 <p>RBAC stands for Role-Based Access Control. In RBAC, a user is assigned a role for a resource, and a role can contain arbitrary actions. The request then checks if the user has the permission to perform the action on the resource.</p>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="the-model-definition-1">The model definition<a href="https://casbin.org/ko/blog/2023/12/08/understanding-casbin-matching-in-detail#the-model-definition-1" class="hash-link" aria-label="The model definition에 대한 직접 링크" title="The model definition에 대한 직접 링크" translate="no">​</a></h3>
 <p>Let's consider a simple example RBAC model:</p>
@@ -167,7 +167,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>In this tutorial, we learned about how different authorization models work and how they can be modeled using Casbin. In the second part of this tutorial, we will implement this in a demo Spring Boot Application and secure the APIs using Casbin.</p>]]></content>
         <author>
             <name>Aravinda Kumar</name>
-            <uri>http://github.com/aravindarc</uri>
+            <uri>https://github.com/aravindarc</uri>
         </author>
     </entry>
     <entry>
@@ -216,7 +216,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 </ul>]]></content>
         <author>
             <name>Rushikesh Tote</name>
-            <uri>http://github.com/rushitote</uri>
+            <uri>https://github.com/rushitote</uri>
         </author>
     </entry>
     <entry>
@@ -243,7 +243,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p><em>Casbin을 이용해 주셔서 감사합니다!</em></p>]]></content>
         <author>
             <name>Casbin</name>
-            <uri>http://github.com/casbin</uri>
+            <uri>https://github.com/casbin</uri>
         </author>
     </entry>
     <entry>
@@ -257,7 +257,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>어떠한 기여나 제안도 환영합니다!</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
     </entry>
     <entry>
@@ -272,7 +272,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>GitHub: <a href="https://github.com/casbin/node-casbin" target="_blank" rel="noopener noreferrer" class="">https://github.com/casbin/node-casbin</a></p>]]></content>
         <author>
             <name>Zixuan Liu</name>
-            <uri>http://github.com/nodece</uri>
+            <uri>https://github.com/nodece</uri>
         </author>
     </entry>
     <entry>
@@ -293,7 +293,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>문제점이나 풀 요청은 언제든지 환영입니다 :)</p>]]></content>
         <author>
             <name>Helong Zhang</name>
-            <uri>http://github.com/BetaCat0</uri>
+            <uri>https://github.com/BetaCat0</uri>
         </author>
     </entry>
 </feed>

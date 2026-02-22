@@ -51,7 +51,7 @@
 <p>The next few years are going to be wild for authorization. The problems are harder, but also more interesting. We're excited to figure them out together.</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
         <category label="casbin" term="casbin"/>
         <category label="roadmap" term="roadmap"/>
@@ -167,7 +167,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>In this tutorial, we learned about how different authorization models work and how they can be modeled using Casbin. In the second part of this tutorial, we will implement this in a demo Spring Boot Application and secure the APIs using Casbin.</p>]]></content>
         <author>
             <name>Aravinda Kumar</name>
-            <uri>http://github.com/aravindarc</uri>
+            <uri>https://github.com/aravindarc</uri>
         </author>
     </entry>
     <entry>
@@ -216,7 +216,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 </ul>]]></content>
         <author>
             <name>Rushikesh Tote</name>
-            <uri>http://github.com/rushitote</uri>
+            <uri>https://github.com/rushitote</uri>
         </author>
     </entry>
     <entry>
@@ -243,7 +243,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p><em>¡Gracias por volar con Casbin!</em></p>]]></content>
         <author>
             <name>Casbin</name>
-            <uri>http://github.com/casbin</uri>
+            <uri>https://github.com/casbin</uri>
         </author>
     </entry>
     <entry>
@@ -257,7 +257,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>¡Cualquier contribución o sugerencia es bienvenida!</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
     </entry>
     <entry>
@@ -272,7 +272,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>GitHub: <a href="https://github.com/casbin/node-casbin" target="_blank" rel="noopener noreferrer" class="">https://github.com/casbin/node-casbin</a></p>]]></content>
         <author>
             <name>Zixuan Liu</name>
-            <uri>http://github.com/nodece</uri>
+            <uri>https://github.com/nodece</uri>
         </author>
     </entry>
     <entry>
@@ -293,7 +293,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>Cualquier problema o solicitud de extracción es bienvenido :)</p>]]></content>
         <author>
             <name>Helong Zhang</name>
-            <uri>http://github.com/BetaCat0</uri>
+            <uri>https://github.com/BetaCat0</uri>
         </author>
     </entry>
 </feed>

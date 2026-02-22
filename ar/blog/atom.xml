@@ -51,7 +51,7 @@
 <p>The next few years are going to be wild for authorization. The problems are harder, but also more interesting. We're excited to figure them out together.</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
         <category label="casbin" term="casbin"/>
         <category label="roadmap" term="roadmap"/>
@@ -142,7 +142,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <ol>
 <li class="">The <strong>role_definition</strong> is a graph relation builder which uses a Graph to compare the request object with the policy object.</li>
 </ol>
-<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="now-lets-test-the-model-on-the-casbin-editor-1">Now let's test the model on the Casbin editor<a href="https://casbin.org/ar/blog/2023/12/08/understanding-casbin-matching-in-detail#now-lets-test-the-model-on-the-casbin-editor-1" class="hash-link" aria-label="رابط مباشر إلى Now let's test the model on the Casbin editor" title="رابط مباشر إلى Now let's test the model on the Casbin editor" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="now-lets-test-the-model-on-the-casbin-editor-1">Now let's test the model on the Casbin editor<a href="https://casbin.org/ar/blog/2023/12/08/understanding-casbin-matching-in-detail#now-lets-test-the-model-on-the-casbin-editor-1" class="hash-link" aria-label="رابط مباش�ر إلى Now let's test the model on the Casbin editor" title="رابط مباشر إلى Now let's test the model on the Casbin editor" translate="no">​</a></h3>
 <p>Open the <a href="https://casbin.org/editor" target="_blank" rel="noopener noreferrer" class="">editor</a> and paste the above model in the Model editor.</p>
 <p>Paste the following in the Policy editor:</p>
 <div class="language-csv codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-csv codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token value">p</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> alice</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-reader</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub1</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">p</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> bob</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-owner</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg2</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">// subscription role to subscription action mapping</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-reader</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-read</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-owner</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-read</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-owner</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-write</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">// resourceGroup role to resourceGroup action mapping</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-reader</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-read</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-owner</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-read</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-owner</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-write</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">// subscription role to resourceGroup role mapping</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-reader</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-reader</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub-owner</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg-owner</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">// subscription resource to resourceGroup resource mapping</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g2</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg1</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token value">g2</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> sub2</span><span class="token punctuation" style="color:#393A34">,</span><span class="token value"> rg2</span><br></span></code></pre></div></div>
@@ -167,7 +167,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>In this tutorial, we learned about how different authorization models work and how they can be modeled using Casbin. In the second part of this tutorial, we will implement this in a demo Spring Boot Application and secure the APIs using Casbin.</p>]]></content>
         <author>
             <name>Aravinda Kumar</name>
-            <uri>http://github.com/aravindarc</uri>
+            <uri>https://github.com/aravindarc</uri>
         </author>
     </entry>
     <entry>
@@ -216,7 +216,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 </ul>]]></content>
         <author>
             <name>Rushikesh Tote</name>
-            <uri>http://github.com/rushitote</uri>
+            <uri>https://github.com/rushitote</uri>
         </author>
     </entry>
     <entry>
@@ -243,7 +243,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p><em>شكرًا لاستخدامكم كاسبين!</em></p>]]></content>
         <author>
             <name>Casbin</name>
-            <uri>http://github.com/casbin</uri>
+            <uri>https://github.com/casbin</uri>
         </author>
     </entry>
     <entry>
@@ -257,7 +257,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>أي مساهمة أو اقتراح مرحب به!</p>]]></content>
         <author>
             <name>Yang Luo</name>
-            <uri>http://github.com/hsluoyz</uri>
+            <uri>https://github.com/hsluoyz</uri>
         </author>
     </entry>
     <entry>
@@ -272,7 +272,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>GitHub: <a href="https://github.com/casbin/node-casbin" target="_blank" rel="noopener noreferrer" class="">https://github.com/casbin/node-casbin</a></p>]]></content>
         <author>
             <name>Zixuan Liu</name>
-            <uri>http://github.com/nodece</uri>
+            <uri>https://github.com/nodece</uri>
         </author>
     </entry>
     <entry>
@@ -293,7 +293,7 @@ assigning permission to subject Alice to perform the action 'write' on object 'd
 <p>أي مشاكل أو طلبات سحب مرحب بها :)</p>]]></content>
         <author>
             <name>Helong Zhang</name>
-            <uri>http://github.com/BetaCat0</uri>
+            <uri>https://github.com/BetaCat0</uri>
         </author>
     </entry>
 </feed>
